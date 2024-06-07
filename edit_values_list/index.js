@@ -8,13 +8,15 @@ console.log("JSON data parsed successfully.");
 
 const keyMap = {
   gameName: "name",
-  gameDate: "last_play",
-  gameTotalTime: "play_time",
+  gameDate: "lastPlay",
+  gameTotalTime: "playTime",
   gameReview: "review",
   gamePhoto: "photo",
   gameScore: "rating",
   gamePlatform: "platform",
   gameStatus: "status",
+  ssName: "name",
+  ssUrl: "url",
 };
 
 const valueTransformations = {
